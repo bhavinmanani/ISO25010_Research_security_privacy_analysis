@@ -77,9 +77,11 @@ Extraction is keyword-based, not a validated NLP classifier. Inflated counts are
 
 ```
 phase-1-aidev-analysis/
-├── README.md                         ← this file
-├── notebooks/
-│   └── analysis.ipynb                ← full analysis: loading → extraction → RQ1–RQ4 → charts
+├── README.md                         
+├── code/
+│   └── Phase1Task1_1.ipynb           ← full analysis: loading → extraction → RQ1–RQ4 → charts
+├── report/
+│   └── Research_Practical_Phase1.pdf 
 └── results/
     ├── quality_mentions.png          ← RQ1 bar chart
     ├── cooccurrence_heatmap.png      ← RQ2 heatmap
@@ -95,16 +97,6 @@ Python · pandas · matplotlib · seaborn · Jupyter
 
 ---
 
-## How to run
-
-```bash
-# From repo root
-pip install -r requirements.txt
-cd phase-1-aidev-analysis/notebooks
-jupyter notebook analysis.ipynb
-```
-
----
 
 ## Reference
 
